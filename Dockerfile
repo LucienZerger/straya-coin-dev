@@ -6,27 +6,12 @@ COPY . /strayacoin
 WORKDIR /strayacoin
 
 #shared libraries and dependencies
-RUN apt update
-RUN apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
-RUN apt-get install -y libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
-
-#BerkleyDB for wallet support
-RUN apt-get install -y software-properties-common
+RUN apt-get update && apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev software-properties-common
 RUN add-apt-repository ppa:bitcoin/bitcoin
-RUN apt-get update
-RUN apt-get install -y libdb4.8-dev libdb4.8++-dev
-
-#upnp
-RUN apt-get install -y libminiupnpc-dev
-
-#ZMQ
-RUN apt-get install -y libzmq3-dev
+RUN apt-get update && apt-get install -y libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libzmq3-dev
 
 #build strayacoin source
-RUN ./autogen.sh
-RUN ./configure
-RUN make
-RUN make install
+RUN ./autogen.sh && ./configure && make && make install
 
 #open service port
 EXPOSE 9666 19666

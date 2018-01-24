@@ -50,7 +50,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-# error "faithcoin cannot be compiled without assertions."
+# error "strayacoin cannot be compiled without assertions."
 #endif
 
 /**
@@ -92,7 +92,7 @@ static void CheckBlockIndex(const Consensus::Params& consensusParams);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const std::string strMessageMagic = "faithcoin Signed Message:\n";
+const std::string strMessageMagic = "strayacoin Signed Message:\n";
 
 // Internal stuff
 namespace {

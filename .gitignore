@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/faithcoin
-src/faithcoind
-src/faithcoin-cli
-src/faithcoin-tx
-src/test/test_faithcoin
-src/test/test_faithcoin_fuzzy
-src/qt/test/test_faithcoin-qt
+src/strayacoin
+src/strayacoind
+src/strayacoin-cli
+src/strayacoin-tx
+src/test/test_strayacoin
+src/test/test_strayacoin_fuzzy
+src/qt/test/test_strayacoin-qt
 
 # autoreconf
 Makefile.in
@@ -74,12 +74,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-faithcoin-qt
-faithcoin-Qt.app
+strayacoin-qt
+strayacoin-Qt.app
 
 # Unit-tests
 Makefile.test
-faithcoin-qt_test
+strayacoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -92,7 +92,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_faithcoin.coverage/
+test_strayacoin.coverage/
 total.coverage/
 coverage_percent.txt
 

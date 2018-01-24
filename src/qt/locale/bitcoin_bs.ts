@@ -14,8 +14,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>faithcoin</source>
-        <translation>faithcoin</translation>
+        <source>strayacoin</source>
+        <translation>strayacoin</translation>
     </message>
     </context>
 <context>
@@ -156,8 +156,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>faithcoin Core</source>
-        <translation>faithcoin Jezrga</translation>
+        <source>strayacoin Core</source>
+        <translation>strayacoin Jezrga</translation>
     </message>
     </context>
 </TS>

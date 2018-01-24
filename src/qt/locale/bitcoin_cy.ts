@@ -154,8 +154,8 @@
         <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
-        <source>faithcoin</source>
-        <translation>faithcoin</translation>
+        <source>strayacoin</source>
+        <translation>strayacoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -640,8 +640,8 @@
         <translation>Opsiynau:</translation>
     </message>
     <message>
-        <source>faithcoin Core</source>
-        <translation>Craidd faithcoin</translation>
+        <source>strayacoin Core</source>
+        <translation>Craidd strayacoin</translation>
     </message>
     <message>
         <source>Information</source>

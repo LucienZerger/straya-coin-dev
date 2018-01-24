@@ -126,8 +126,8 @@
         <translation>Abrir &amp;URL...</translation>
     </message>
     <message>
-        <source>Send coins to a faithcoin address</source>
-        <translation>Enviando monedas a una dirección de faithcoin</translation>
+        <source>Send coins to a strayacoin address</source>
+        <translation>Enviando monedas a una dirección de strayacoin</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -146,8 +146,8 @@
         <translation>&amp;Verificar Mensaje...</translation>
     </message>
     <message>
-        <source>faithcoin</source>
-        <translation>faithcoin</translation>
+        <source>strayacoin</source>
+        <translation>strayacoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -296,8 +296,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>faithcoin Core</source>
-        <translation>faithcoin Core</translation>
+        <source>strayacoin Core</source>
+        <translation>strayacoin Core</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

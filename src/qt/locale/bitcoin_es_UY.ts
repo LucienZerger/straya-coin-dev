@@ -110,16 +110,16 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>Send coins to a faithcoin address</source>
-        <translation>Enviar monedas a una dirección faithcoin</translation>
+        <source>Send coins to a strayacoin address</source>
+        <translation>Enviar monedas a una dirección strayacoin</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Cambie la clave utilizada para el cifrado del monedero</translation>
     </message>
     <message>
-        <source>faithcoin</source>
-        <translation>faithcoin</translation>
+        <source>strayacoin</source>
+        <translation>strayacoin</translation>
     </message>
     <message>
         <source>Wallet</source>

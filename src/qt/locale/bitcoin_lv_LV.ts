@@ -39,11 +39,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Izvēlies adresi uz kuru sūtīt faithcoins</translation>
+        <translation>Izvēlies adresi uz kuru sūtīt strayacoins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Izvēlies adresi ar kuru saņemt faithcoins</translation>
+        <translation>Izvēlies adresi ar kuru saņemt strayacoins</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -202,8 +202,8 @@
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-        <source>Send coins to a faithcoin address</source>
-        <translation>Nosūtīt bitkoinus uz faithcoin adresi</translation>
+        <source>Send coins to a strayacoin address</source>
+        <translation>Nosūtīt bitkoinus uz strayacoin adresi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -226,8 +226,8 @@
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
-        <source>faithcoin</source>
-        <translation>faithcoin</translation>
+        <source>strayacoin</source>
+        <translation>strayacoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -254,12 +254,12 @@
         <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
-        <source>Sign messages with your faithcoin addresses to prove you own them</source>
-        <translation>Parakstīt ziņojumus ar savām faithcoin adresēm lai pierādītu ka tās pieder tev</translation>
+        <source>Sign messages with your strayacoin addresses to prove you own them</source>
+        <translation>Parakstīt ziņojumus ar savām strayacoin adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified faithcoin addresses</source>
-        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām faithcoin adresēm</translation>
+        <source>Verify messages to ensure they were signed with specified strayacoin addresses</source>
+        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām strayacoin adresēm</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -278,12 +278,12 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and faithcoin: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un faithcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and strayacoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un strayacoin: URIs)</translation>
     </message>
     <message>
-        <source>Open a faithcoin: URI or payment request</source>
-        <translation>Atvērt faithcoin URI vai maksājuma pieprasījumu</translation>
+        <source>Open a strayacoin: URI or payment request</source>
+        <translation>Atvērt strayacoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -563,15 +563,15 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ieslēgt faithcoin &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt strayacoin &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
-        <source>Automatically open the faithcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt faithcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the strayacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt strayacoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -623,7 +623,7 @@
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Vai rādīt faithcoin kontroles funkcijas vai nē.</translation>
+        <translation>Vai rādīt strayacoin kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -657,8 +657,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the faithcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar faithcoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the strayacoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar strayacoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -932,7 +932,7 @@
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>faithcoin Kontroles Funkcijas</translation>
+        <translation>strayacoin Kontroles Funkcijas</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1111,8 +1111,8 @@
         <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this faithcoin address</source>
-        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs faithcoin adreses īpašnieks.</translation>
+        <source>Sign the message to prove you own this strayacoin address</source>
+        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs strayacoin adreses īpašnieks.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1228,8 +1228,8 @@
         <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
     </message>
     <message>
-        <source>faithcoin Core</source>
-        <translation>faithcoin Core</translation>
+        <source>strayacoin Core</source>
+        <translation>strayacoin Core</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

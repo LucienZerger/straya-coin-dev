@@ -125,8 +125,8 @@ public:
         //print(consensus.hashGenesisBlock);
         //print(genesis.hashMerkleRoot);
 
-        assert(consensus.hashGenesisBlock == uint256S("0xee686214586277080977cf43d2a0b38bcd48d696129b19c026d8208f9e745cea"));
-        assert(genesis.hashMerkleRoot == uint256S("0x805d8d176abe872f5cd40b558869a0d25ed02ae471fa33f80185443e5ca9cb40"));
+        assert(consensus.hashGenesisBlock == uint256S("0x79e617d80cffb1fde6cfb66870f0fed9d96dd5a5b6e5f9cd9737b11a0e6d0676"));
+        assert(genesis.hashMerkleRoot == uint256S("0x7b613ac474706231be0b46f9fbc786925afb01660a2178a3bbd17eb48cf7e582"));
         //assert(consensus.hashGenesisBlock == uint256S("0x"));
         //assert(genesis.hashMerkleRoot == uint256S("0x"));
 
@@ -156,10 +156,10 @@ public:
 
         checkpointData = (CCheckpointData) {
             {
-                {  0, uint256S("0xee686214586277080977cf43d2a0b38bcd48d696129b19c026d8208f9e745cea")},
+                {  0, uint256S("0x79e617d80cffb1fde6cfb66870f0fed9d96dd5a5b6e5f9cd9737b11a0e6d0676")}/*,
                 {  650, uint256S("0x2b90731cbe9d628f5db73bf62ef124c26201d74706ca11278256fa3c32a92898")},
 
-/*
+
                 {  1500, uint256S("0x841a2965955dd288cfa707a755d05a54e45f8bd476835ec9af4402a2b59a2967")},
                 {  4032, uint256S("0x9ce90e427198fc0ef05e5905ce3503725b80e26afd35a987965fd7e3d9cf0846")},
                 {  8064, uint256S("0xeb984353fc5190f210651f150c40b8a4bab9eeeff0b729fcb3987da694430d70")},
@@ -182,7 +182,7 @@ public:
 
         chainTxData = ChainTxData{
             // Data as of block db42d00d824950a125f9b08b6b6c282c484781562fa8b3bd29d6ce4a2627c348 (height 1259851).
-            1513784917, // * UNIX timestamp of last known number of transactions
+            1516847132, // * UNIX timestamp of last known number of transactions
             0,  // * total number of transactions between genesis and that timestamp
                     //   (the tx=... number in the SetBestChain debug.log lines)
             0.0     // * estimated number of transactions per second after that timestamp

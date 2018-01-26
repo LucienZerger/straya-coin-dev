@@ -118,11 +118,11 @@ public:
         nDefaultPort = 9666;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1516943825, 2084820399, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1516943825, 2086051390, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
-        assert(consensus.hashGenesisBlock == uint256S("0x79e617d80cffb1fde6cfb66870f0fed9d96dd5a5b6e5f9cd9737b11a0e6d0676"));
-        assert(genesis.hashMerkleRoot == uint256S("0x7b613ac474706231be0b46f9fbc786925afb01660a2178a3bbd17eb48cf7e582"));
+        assert(consensus.hashGenesisBlock == uint256S("0xf40e7646b3d251766a184024ebc024035edae584e0694dc875edc9757e267af5"));
+        assert(genesis.hashMerkleRoot == uint256S("0xdd9921f0ad3a86be19920cfd70c63520dcd994831cb5df30983b5b9de60f575c"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         vSeeds.emplace_back("dnsseed.faithco.in", true);
@@ -147,7 +147,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             {
-                {  0, uint256S("0x79e617d80cffb1fde6cfb66870f0fed9d96dd5a5b6e5f9cd9737b11a0e6d0676")}/*,
+                {  0, uint256S("0xf40e7646b3d251766a184024ebc024035edae584e0694dc875edc9757e267af5")}/*,
                 {  650, uint256S("0x2b90731cbe9d628f5db73bf62ef124c26201d74706ca11278256fa3c32a92898")},
 
 
